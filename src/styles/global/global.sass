@@ -1,0 +1,66 @@
+*, html 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body 
+  background: $lightGray
+  font-family: $font-primary
+
+.container 
+  max-width: 1180px
+  width: 100%
+  margin: 0 auto
+  padding: 0 15px
+
+.comment-card 
+  background: $cWhite
+  padding: 20px
+  border-radius: 5px
+  margin-bottom: 10px
+
+.comment-box 
+  background: $cWhite
+  padding: 20px
+  margin-bottom: 10px
+  border-radius: 5px
+  display: flex 
+  align-items: flex-start
+  gap: 20px
+
+  img 
+    height: 50px
+    width: auto
+
+.modal 
+  height: 100vh
+  width: 100%
+  position: fixed
+  top: 0
+  left: 0
+  background: rgba($cBlack, .3)
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 0 15px
+
+  .modal-container
+    padding: 25px
+    border-radius: 10px
+    background: $cWhite
+    max-width: 400px
+    color: $grayishBlue
+    line-height: 1.5rem
+
+  .modal-title
+    color: $darkBlue
+    font-size: 25px
+    margin-bottom: 25px
+
+  .modal-buttons 
+    display: flex
+    gap: 20px
+    margin-top: 20px
+
+    button
+      width: 100%
